@@ -7,7 +7,7 @@ import { MaintenanceConfig, PageConfig, WorkerConfig } from './types/config'
 
 const pageConfig: PageConfig = {
   // Title for your status page
-  title: "lyc8503's Status Page",
+  title: "ATzzz Web Status Page",
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
     { link: 'https://github.com/ipme', label: 'GitHub' },
@@ -30,7 +30,7 @@ const workerConfig: WorkerConfig = {
       // `target` is a valid URL
       target: 'https://atzzz.com',
       // [OPTIONAL] `tooltip` is ONLY used at status page to show a tooltip
-      tooltip: 'This is a tooltip for this monitor',
+      tooltip: 'My Blog',
       // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
       statusPageLink: 'https://atzzz.com',
       // [OPTIONAL] `expectedCodes` is an array of acceptable HTTP response codes, if not specified, default to 2xx
@@ -56,17 +56,17 @@ const workerConfig: WorkerConfig = {
       // checkProxyFallback: true,
     },
     // Example TCP Monitor
-    {
-      id: 'test_tcp_monitor',
-      name: 'Example TCP Monitor',
+    //{
+    //  id: 'test_tcp_monitor',
+    //  name: 'Example TCP Monitor',
       // `method` should be `TCP_PING` for tcp monitors
-      method: 'TCP_PING',
+    //  method: 'TCP_PING',
       // `target` should be `host:port` for tcp monitors
-      target: '1.2.3.4:22',
-      tooltip: 'My production server SSH',
-      statusPageLink: 'https://example.com',
-      timeout: 5000,
-    },
+    //  target: '1.2.3.4:22',
+    //  tooltip: 'My production server SSH',
+    //  statusPageLink: 'https://example.com',
+    //  timeout: 5000,
+    //},
   ],
   // [Optional] Notification settings
   notification: {
