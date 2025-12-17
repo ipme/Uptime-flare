@@ -55,6 +55,20 @@ const workerConfig: WorkerConfig = {
       // [OPTIONAL] if true, the check will fallback to local if the specified proxy is down
       // checkProxyFallback: true,
     },
+    
+    {
+      id: 'mzkkk.com',
+      name: 'MZKKK',
+      method: 'GET',
+      target: 'https://atzzz.com'
+    },
+    {
+      id: 'rsshub.isrss.com',
+      name: 'RssHub',
+      method: 'GET',
+      target: 'https://rsshub.isrss.com'
+    },
+    
     // Example TCP Monitor
     //{
     //  id: 'test_tcp_monitor',
